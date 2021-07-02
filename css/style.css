@@ -1,0 +1,815 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+    
+}
+a {
+    text-decoration: none;
+}
+ul,li{
+    list-style-type: none;
+}
+body {
+    overflow-x: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+/*Variables*/
+:root{
+    --h2-color:#333;
+};
+
+#header{
+    overflow: hidden;
+}
+.address a .fa-location-arrow{
+    color: #ffc107;
+    background: #333;
+    padding: 8px 8px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
+.address a .fa-mobile-alt{
+    color: #ffc107;
+    background: #333;
+    padding: 5px 8px;
+    border-radius: 100%;
+    text-align: center;
+    margin-right: 10px;
+}
+.address a i.fas{
+}
+#header h6{
+    margin-top: 10px;
+    color: #070707;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.navbar {
+    background: #f1f1f1;
+    color: #345;
+}
+
+.navbar .nav-item {
+    padding-left: 1em;
+}
+
+.navbar .nav-item .nav-link {
+    text-transform: uppercase;
+}
+
+#navbarNav ul li a.active{
+    color: #ffc107 !important;
+}
+.navbar h3{
+    color:rgba(8, 8, 8, 0.73);
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+}
+.navbar img{
+    width: 100px;
+    height: 90px;
+    margin: -8px;
+}
+
+#navbarNav ul li a{
+    color: rgba(23, 22, 22, 0.84);
+    transition: .3s;
+    font-weight: 500;
+}
+#navbarNav ul li:hover a{
+    color: #ffc107;
+    
+}
+
+
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-img-1 {
+  background: linear-gradient(rgba(59, 59, 59, 0.5), rgba(59, 59, 59, 0.5)), url("../Image/room.jpg");
+  background-size: cover;
+  background-position: bottom;
+    
+}
+
+.carousel-img-2 {
+  background: linear-gradient(rgba(59, 59, 59, 0.5), rgba(59, 59, 59, 0.5)), url("../Image/timothy-l-brock-9s-_dwkljI8-unsplash.jpg");
+  background-size: cover; 
+  background-position: center;
+}
+
+.carousel-img-3 {
+  background: url("../Image/room%202.jpg");
+  background-size: cover; 
+  background-position: center;
+}
+
+
+#showcase{
+}
+
+#showcase h2{
+    font-weight: 500;
+}
+#showcase p{
+    color: #f2f2f2;
+}
+
+/*=========index.html  Card SEction============*/
+
+.card-deck{
+    
+}
+#card-group .card-hed h2{
+    background: #ffffff;
+    box-shadow: 1px 7px 10px 1px rgba(123, 123, 123, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+.card{
+    border-radius: 10px;
+    transition: all linear 0.4s;
+}
+.card:hover{
+    box-shadow: 2px 3px 10px 5px rgba(123, 123, 123, 0.4);
+}
+.card img{
+    height: 250px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card .details{
+    height: 150px;
+    margin-bottom: -px;
+}
+.card .card-body h5{
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #345;
+}
+.card .card-body p{
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 26px;
+}
+.card .btn{
+    border: none;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-size: 14px;
+    padding: 12px 18px;
+    color: #ffffff;
+    background: #343434;
+}
+.card .btn:hover{
+    box-shadow: 2px 3px 10px 5px rgba(123, 123, 123, 0.4);
+    background: #434343;
+}
+
+#card-group{
+    background:  rgb(250, 250, 250);
+    
+}
+#card-group h2{
+    background:  #f1f1f1;
+    padding: 10px 0;
+    color: rgba(255, 186, 0, 0.93);
+    text-transform: uppercase;
+    font-size: 28px;
+}
+#card-group .card .card-title{
+}
+#card-group .card .card-text{
+}
+
+
+#cleaning{
+    background:  #ffc107;
+}
+#cleaning h2{
+    background: #ffc107;
+    box-shadow: 1px 7px 10px 1px rgba(119, 89, 0, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+#cleaning img{
+    width: 300px;
+}
+#cleaning p{
+    line-height: 25px;
+}
+.clianing-part{
+    padding-top: 20px;
+}
+/*
+.clean-1{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: 3;
+}
+@keyframes example {
+  0%   {left:0px; top:0px;}
+    50%  {left:200px; top:0px;}
+}
+*/
+/*=========Team Section===========*/
+
+#Team {
+    background:  rgb(250, 250, 250);
+}
+
+#Team h2{
+    background: #ffffff;
+    box-shadow: 1px 7px 10px 1px rgba(123, 123, 123, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+#Team img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 20px;
+    
+}
+
+/*=========Client Review===========*/
+
+#client-review{
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background: #2196f3;*/
+    background: #ffc107;
+    overflow: hidden;
+}
+.client-heading{
+    position: absolute;
+    z-index: ;
+    top: 0;
+    width: 100%;
+}
+.client-heading h3{
+    background: #ffc107;
+    box-shadow: 1px 7px 10px 1px rgba(119, 89, 0, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+.swiper-container {
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 335px;
+    margin-right: 15px;
+    background: #d1ebff; 
+    box-shadow: 0 15px 5px rgba(0,0,0,0.2);
+    filter: blur(4px);
+}
+.swiper-slide-active{
+    filter: blur(0px);
+    background: #fff;
+}
+.testimonialBox{
+    position: relative;
+    width: 100%;
+    padding: 40px;
+    padding-top: 90px;
+    color: #999;
+}
+.testimonialBox .quote{
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    opacity: 0.3;
+    width: 40px;
+}
+.testimonialBox .details{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.testimonialBox .details .imgbox{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+.testimonialBox .details .imgbox img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.testimonialBox .details h3{
+    font-size: 16px;
+    font-weight: 400;
+    color: #ffc107;
+    letter-spacing: 1px;
+    line-height: 1.1em;
+    
+}
+.testimonialBox .details h3 span{
+    font-size: 12px;
+    color: #ffc107;
+}
+.swiper-container-3d .swiper-slide-shadow-left,
+.swiper-container-3d .swiper-slide-shadow-right {
+    background-image: none; }
+
+/*#client-review{
+    background: #ffc107;
+    
+}
+
+#client-review .client-heading h3{
+    background: #ffc107;
+    box-shadow: 1px 7px 10px 1px rgba(119, 89, 0, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+#client-review .rivew-edit{
+    font-size: 30px;
+}
+#client-review .rivew-edit span{
+    font-size: 45px;
+    color: #f1f1f1;
+}
+#client-review .rivew-edit .left-arow-riveiw{
+    float: left;
+   
+    background: #f1f1f1;
+    color: #ffc107;
+    border-radius: 100%;
+    padding: 5px 20px;
+    margin-top: 30px;
+}
+
+#carouselExampleControls{
+    background: #ffc107;
+    height: 360px;
+}
+#carouselExampleControls h2{
+    background:  rgba(111, 110, 110, 0.21);  
+    padding: 10px 0;
+    color: rgba(250, 250, 250, 0.93);
+    
+}
+#carouselExampleControls .carousel-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}*/
+
+
+/*=========About Section==========*/
+
+#about-us{
+    background:  rgb(250, 250, 250);
+}
+#about-us .about-title h2{
+   background: #ffffff;
+    box-shadow: 1px 7px 10px 1px rgba(123, 123, 123, 0.4);
+    color: var(--h2-color);
+    text-transform: uppercase;
+    padding: 10px 0;
+    font-size: 28px;
+    font-weight: 600;
+}
+#about-us p{
+    padding-top: 9px
+}
+#aboutPart-about .media img{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/*========Footer Section===========*/
+
+#footer{
+    background:  #345;
+    color:rgba(246, 246, 246, 0.93);
+}
+#footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    margin-left: -40px;
+    line-height: 35px;
+}
+#footer ul li a:hover{
+    color: #ffc107;
+}
+.footer-address h5{
+    margin-top: 20px;
+}
+
+#footer .icon1{
+    padding-right: 20px;
+    font-size: 30px;
+    color: #f1f1f1;
+}
+#footer .icon1:hover{
+    color:#ffc107;
+}
+#footer .icon2{
+    font-size: 30px;
+    color: #f1f1f1;
+}
+#footer .icon2:hover{
+    color:#ffc107;
+}
+#footer .fotter-short-link{
+    text-decoration: none;
+    color: #f1f1f1
+}
+#footer .fotter-short-link:hover{
+    color:#ffc107;
+}
+.footer-menu ul li.active a{
+    color: #ffc107 !important;
+}
+
+/*========Footer Bottom========*/
+
+.footer-contant {
+    text-align: center;
+    background: #ffc107;
+}
+.footer-contant p{
+    font-size: 14px;
+    }
+.footer-contant p b{
+    font-size: 16px;
+}
+.footer-contant p b a{
+    text-decoration: none;
+    color: #345;
+}
+
+
+
+
+/* ========== About.html start======== */
+
+
+#about-banner{
+    background: url(../Image/about%20us-part.jpg);
+    height: 460px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: bottom;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+#about-banner.about-banner-img h2{
+    color: var(--h2-color);
+    font-size: 40px;
+    font-weight: 500;
+}
+#about-banner.about-banner-img p{
+    color: rgba(0, 0, 0, 0.79);
+}
+
+#company-details{
+    background:  rgb(250, 250, 250);
+    font-family: 'Poppins', sans-serif;
+}
+#company-details h2{
+    background:  background: rgba(0, 0, 0, 0.32);
+    box-shadow: 10px 2px 10px 2px rgba(0, 0, 0, 0.06);
+    padding: 10px 0;
+    color: var(--h2-color);
+    text-transform: uppercase;
+    font-size: 32px;
+    
+}
+#company-details p{
+    color: #070707;
+}
+#company-details .logo-here img{
+    width: 200px;
+    border-radius: 100%
+}
+#company-details .logo-here p{
+    
+}
+#aboutPart-about{
+   background: #ffc107;
+    font-family: 'Poppins', sans-serif;
+}
+#aboutPart-about .media{
+    
+}
+#aboutPart-about h2{
+    background:  background: rgba(0, 0, 0, 0.28);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.51);
+    padding: 10px 0;
+    color: var(--h2-color);
+    text-transform: uppercase;
+    font-size: 28px;
+    
+}
+#aboutPart-about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+        
+}
+#aboutPart-about p{
+    color: #070707;
+    text-align: justify;
+}
+.about-menu ul li.active a{
+    color: #ffc107 !important;
+}
+.footer-menu ul li a.active{
+    color: #ffc107 !important;
+}
+
+
+
+
+
+
+
+
+/* -========== Service Part -========== */
+#service-banner{
+    background: url(../Image/cleaning%202.jpg);
+    height: 460px;
+    background-attachment:fixed;
+    background-position: top; 
+    background-size:cover;
+    overflow: hidden;
+    font-family: 'Poppins', sans-serif;
+}
+#service-banner .service-heading{
+    text-align: center;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.32);
+    margin-top: 20px;
+}
+#service-banner .service-heading h2{
+    color: #f1f1f1;
+    font-size: 50px;
+    font-weight: 600;
+}
+#service-banner .service-heading p{
+    color: #f1f1f1;
+    font-size: 23px;
+}
+
+.service-menu ul li.active a {
+    color: #ffc107 !important;
+}
+#Our-Pest-Services{
+    background: #ffc107;
+    font-family: 'Poppins', sans-serif;
+}
+#Our-Pest-Services h2{
+    background:  #f1f1f1;
+    padding: 10px 0;
+    color: var(--h2-color);
+    text-transform: uppercase;
+    font-weight: 600;
+}
+#Our-Pest-Services img{
+    width: 300px;
+    
+}
+#Our-Pest-Services p{
+    line-height: 25px;
+}
+.cock-ser h6{
+    font-size: 20px;
+    color: #ff0000;
+}
+.cock-ser p{
+    text-align: justify;
+}
+.rat-ser h6{
+    font-size: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+.rat-ser p{
+    text-align: justify
+}
+.bed-ser h6{
+    font-size: 20px;
+    color: #ff0000;
+}
+.bed-ser p{
+    text-align: justify
+}
+.ants-ser h6{
+    font-size: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+.ants-ser p{
+    text-align: justify
+}
+.mos-ser h6{
+    font-size: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+.mos-ser p{
+    text-align: justify
+}
+
+
+
+
+
+
+
+
+/* ============ Contact Part ===========*/
+
+#Contact-banner{
+    background: url(../Image/contact%20page%203.jpg);
+     height: 460px;
+    background-attachment:fixed;
+    background-position: top; 
+    background-size:cover;
+   overflow: hidden;
+    
+    
+}
+.contact-banner-contante {
+    color: #f1f1f1;
+    padding-right: 420px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+.contact-banner-contante h2{
+    font-size: 40px;
+    color: var(--h2-color);
+    font-weight: 600;
+}
+.contact-banner-contante p{
+    font-size: 30px;
+    color: var(--h2-color);
+    font-weight: 500;
+}
+.message-bar input{
+    width: 40%;
+    border: none;
+    outline: none;
+    
+    
+}
+.message-bar h2{
+    color: var(--h2-color);
+    font-size: 28px;
+}
+.message-bar input.name1{
+    width: 49%;
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0 0px 0;
+    background: rgba(222, 221, 221, 0.34);
+    
+}
+.message-bar input.name2{
+    width: 49%;
+    display: inline-block;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 10px 0 0px 10px;
+    background: rgba(222, 221, 221, 0.34);
+    
+}
+.message-bar input.email2{
+    width: 58%;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 15px 0 0 10px;
+    background: rgba(222, 221, 221, 0.34);
+}
+.message-bar input.cnt-num{
+    width: 40%;
+    padding: 10px 0px 10px 10px;
+    border-radius: 5px;
+    margin: 15px 0 0 0px;
+    background: rgba(222, 221, 221, 0.34);
+}
+.message-bar .box textarea{
+    padding: 10px 0px 0px 10px;
+    border-radius: 5px;
+    margin: 15px 0 0 0;
+    background: rgba(222, 221, 221, 0.34);
+    border: none;
+    outline: none;
+    width: 100%
+}
+.message-bar button{
+    margin-top: 10px;
+    background: rgba(222, 221, 221, 0.34);
+    color: rgb(0, 0, 0);
+    border-radius: 15px;
+    border-color: rgba(222, 221, 221, 0.34);
+    font-size: 16px;
+    padding: 10px 25px;
+    transition: 0.4s;
+}
+.message-bar button:hover{
+    background: #ffc107;
+    color: rgb(255, 255, 255);
+}
+#contact-details{
+    font-family: 'Poppins', sans-serif;
+}
+#contact-details a{
+    text-decoration: none;
+}
+
+::placeholder{
+    font-size: 15px;
+}
+
+#contact-details .contact-website a:hover{
+    color: #ffc107;
+}
+.cntact-dtls h2{
+    color: var(--h2-color);
+    font-size: 24px;
+}
+.contact-add h4{
+    font-size: 24px;
+    color: var(--h2-color);
+}
+.contact-menu ul li.active a{
+    color: #ffc107 !important;
+}
+#contact-details .contact-mail a:hover{
+    color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 480px){
+    .carousel-inner h2{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width:320px) {
+    
+}
+@media only screen and (min-width:480px) {
+    
+}
+@media only screen and (min-width:767px) {
+    
+}
+@media only screen and (min-width:991px) {
+    
+}
+@media only screen and (min-width:1200px) {
+    
+}
